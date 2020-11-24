@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeritasatuActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:minHeight="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/arrow_back" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/newssatu"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/newstiga"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_tittlesatu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="Jakarta, CNN Indonesia -- Wakil Ketua DPR RI Sufmi Dasco Ahmad menyatakan Badan Legislasi (Baleg) DPR akan memperhatikan penolakan dan masukan publik soal Rancangan Undang-undang Minuman Beralkohol atau RUU Minol.Penolakan-penolakan maupun masukan-masukan akan menjadi perhatian Baleg untuk lebih mencermati pembahasan dari usulan tersebut, kata Dasco kepada wartawan di Kompleks Parlemen, Senayan, Jakarta pada Jumat (13/11).Dia menerangkan, pembahasan RUU Minol pada saat ini baru dalam tahap penjelasan dari pengusul rancangan regulasi. Dasco berkata, Baleg akan mengkaji penjelasan dari pengusul itu lebih dahulu dan menentukan apakah pembahasan RUU Minol akan dilanjutkan atau tidak.Di sisi lain, Ketua Harian DPP Partai Gerindra itu menolak berandai-andai tentang sejumlah kajian yang pernah dilakukan terhadap RUU Minol di masa lalu.
+
+Ia meminta publik menunggu hasil kajian Baleg yang diklaim transparan terhadap RUU Minol.
+
+Kita tidak bisa berandai-andai, karena kalau pengkajian itu kan berlangsung secara terbuka, kemudian dilakukan komunikasi dialog dan tentu transparansi. Apapun itu nanti hasilnya kita akan lihat kemudian, kata Dasco.Untuk diketahui, RUU Minol kembali dibahas di Baleg DPR usai diusulkan oleh 21 anggota DPR RI yang berasal dari tiga fraksi berbeda yakni PPP, PKS, serta Gerindra.
+
+Hal tersebut diketahui dari dokumen penjelasan pengusul RUU Minol yang diunggah di situs resmi DPR pada Rabu (11/11).
+
+Dalam dokumen disebutkan bahwa tujuan para pengusul RUU Minol adalah melindungi masyarakat dari dampak negatif, menciptakan ketertiban dan ketentraman di masyarakat dari para peminum minol, serta menumbuhkan kesadaran masyarakat mengenai bahaya minol.
+
+Anggota Baleg DPR dari Fraksi Partai Golkar Firman Soebagyo sebelumnya meminta RUU Minol dibahas dengan pemerintah. Menurutnya, pandangan pemerintah terhadap kepentingan pembuatan dua rancangan regulasi harus dikomunikasikan lebih dahulu.Tentang [RUU] Larangan Minol ini juga betul-betul dikomunikasikan dan dikonfirmasi ke pemerintah, kata Firman.
+
+RUU itu sendiri mengatur sejumlah denda maksimal Rp50 juta.
+"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
